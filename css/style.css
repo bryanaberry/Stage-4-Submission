@@ -1,0 +1,86 @@
+/*CSS file for page_body.html*/
+/* Created by Bryan Berry, golfguru.berry@gmail.com*/
+
+.heading {
+    border-radius: 20px;
+    border-width: 8px;     
+    background-color:#fa2021;
+    color:white;
+    clear:both;
+    margin: 025px 10px 0px 10px; 
+    padding:5px;
+    text-align:center;
+}
+.stage {
+    background-color:#65c5c4;
+    color: #fefffd;
+    margin: 10px;
+    margin: 0px 25px 0px 25px; 
+    padding:10px;
+}
+.topic {
+    background-color:#fefffd;
+    border-radius: 20px;
+    color: darkgreen;
+    line-height:30px;
+    margin: 10px 10px 10px 10px; 
+    padding:5px;
+}
+
+.comments {
+  background-color: rgba(44,44,200,0.12);
+  padding: 8px;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.comment {
+  background-color: rgba(200,200,200,0.50);
+  margin: 5px;
+  padding: 5px;
+  padding-top: 1px;
+  border-radius: 12px;
+}
+
+.centered_content {
+  display: block;
+  text-align: center;
+}
+h1 {
+  color: darkgreen;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+h2 {
+  color: #ffffff;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: normal;
+  margin: 10px;
+}
+h3 {
+  color: darkgreen;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+body {
+  background: darkgreen ;
+  background-position: 0px 5px; 
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+em {
+  font-weight: 600;
+}
+.footer {
+    color:white;
+    clear:both;
+    margin: 25px 10px 0px 10px; 
+    padding:5px;
+    text-align:center;
+}

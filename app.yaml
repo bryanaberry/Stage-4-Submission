@@ -1,0 +1,18 @@
+application: stage-4-submission
+version: 005
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /.*
+  script: mypage.app
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
